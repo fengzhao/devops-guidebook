@@ -31,9 +31,9 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: dist # The folder the action should deploy.
           CLEAN: true
-      - name: Complete ✅
-        uses: fifsky/dingtalk-action@master
-        with:
-          url: ${{ secrets.DINGTALK_WEBHOOK }}
-          type: text
-          content: Github：DevOps-Guidebook 构建完成
+#       - name: Complete ✅
+#         uses: fifsky/dingtalk-action@master
+#         with:
+#           url: ${{ secrets.DINGTALK_WEBHOOK }}
+#           type: text
+#           content: Github：DevOps-Guidebook 构建完成
